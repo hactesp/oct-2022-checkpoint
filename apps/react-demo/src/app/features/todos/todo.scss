@@ -1,0 +1,36 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+ td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tbody tr:nth-child(even){background-color: #f2f2f2;}
+
+tbody tr:hover {background-color: #ddd;}
+
+table thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+input {
+  border-radius: 3px;
+}
+.invalid {
+  border: 1px solid #dc3545;
+  outline: none;
+}
+.error-text {
+  color: #dc3545;
+}
+.action-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

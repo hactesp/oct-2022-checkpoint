@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "api-demo": "apps/api-demo",
+    "react-demo": "apps/react-demo",
+    "react-demo-e2e": "apps/react-demo-e2e"
+  }
+}
